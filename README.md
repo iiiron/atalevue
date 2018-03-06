@@ -2,7 +2,7 @@
 
 > a vue module
 
-## Build Setup
+## Instruction
 
 自用vue组件库
 
