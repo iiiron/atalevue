@@ -11,7 +11,12 @@ import passWordInput from './src/components/input/passWordInput'
 import phoneNumInput from './src/components/input/phoneNumInput'
 import pickInput from './src/components/input/pickInput'
 import userNameInput from './src/components/input/userNameInput'
-import {inputManager} from "./src/components/input/inputManager.js"
+
+import InputManager from "./src/components/input/InputManager.js"
+
+import CountDown from "./src/utils/CountDown.js"
+import storage from "./src/utils/storage.js"
+import welodash from "./src/utils/welodash.js"
 
 export {
 	basicInput,
@@ -26,5 +31,9 @@ export {
 	phoneNumInput,
 	pickInput,
 	userNameInput,
-	inputManager
+
+	InputManager,
+	CountDown,
+	storage,
+	welodash
 }
