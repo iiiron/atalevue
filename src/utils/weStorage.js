@@ -2,6 +2,7 @@
  * weStorage的存在可以隔离存储方式的变化对上层的影响，还可以对存储过程做
  * 统一处理。
  * @return {[type]} [description]
+ * author 万相明
  */
 var weStorage={};
 

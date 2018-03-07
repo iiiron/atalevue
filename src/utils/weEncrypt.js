@@ -1,3 +1,7 @@
+/**
+ * author 万相明
+ */
+
 import aes from 'crypto-js/aes'
 import CryptoJS from 'crypto-js'
 import JsEncrypt from 'jsencrypt/bin/jsencrypt.js'

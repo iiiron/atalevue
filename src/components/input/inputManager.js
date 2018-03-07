@@ -4,6 +4,8 @@
  * 	onChange(funciton)	//当inputManager中的input变化时，onChange会回调传入的方法
  * 						并带出错误信息
  * 	findFail()			//查找出验证失败的input
+ * 	
+ * 	author 万相明
  */
 import lodash from 'lodash'
 

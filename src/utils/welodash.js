@@ -1,3 +1,7 @@
+/**
+ * author 万相明
+ */
+
 import lodash from "lodash"
 
 var weLodash={};
