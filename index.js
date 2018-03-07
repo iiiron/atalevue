@@ -15,8 +15,9 @@ import userNameInput from './src/components/input/userNameInput'
 import InputManager from "./src/components/input/InputManager.js"
 
 import CountDown from "./src/utils/CountDown.js"
-import storage from "./src/utils/storage.js"
-import welodash from "./src/utils/welodash.js"
+import weStorage from "./src/utils/weStorage.js"
+import weLodash from "./src/utils/weLodash.js"
+import weEncrypt from "./src/utils/weEncrypt.js"
 
 export {
 	basicInput,
@@ -34,6 +35,7 @@ export {
 
 	InputManager,
 	CountDown,
-	storage,
-	welodash
+	weStorage,
+	weLodash,
+	weEncrypt
 }

@@ -1,8 +1,8 @@
 import lodash from "lodash"
 
-var welodash={};
+var weLodash={};
 
-welodash.parseToString=function(obj) {
+weLodash.parseToString=function(obj) {
 	obj=lodash.cloneDeep(obj);
 
 	lodash.forOwn(obj,(value,index)=>{
@@ -18,7 +18,7 @@ welodash.parseToString=function(obj) {
 	return obj;
 }
 
-welodash.getUrlParam=function(name){
+weLodash.getUrlParam=function(name){
 	var s=decodeURI(window.location.href);
     var reg = new RegExp("(\\?|&)"+name+"=([^&]*)(&|$)");
     var r = s.match(reg);
@@ -26,7 +26,7 @@ welodash.getUrlParam=function(name){
     	return unescape(r[2]); return null;
 }
 
-welodash.random=function(min,max,coeLine,coeRange,coeTimes){
+weLodash.random=function(min,max,coeLine,coeRange,coeTimes){
 	var top=coeLine+coeRange/2;
 	var bottom=coeLine-coeRange/2;
 
@@ -40,7 +40,7 @@ welodash.random=function(min,max,coeLine,coeRange,coeTimes){
 	return range*(max-min)+min;
 }
 
-welodash.dateFormat=function(mdate,fmt){
+weLodash.dateFormat=function(mdate,fmt){
     if(typeof mdate === "string"){
         var mdate=mdate.replace(/-/g,"/");
         mdate=mdate.substring(0,(mdate.indexOf(".") == -1 ? mdate.length : mdate.indexOf(".")));
@@ -69,4 +69,4 @@ welodash.dateFormat=function(mdate,fmt){
     return fmt;
 }
 
-export default welodash;
+export default weLodash;
