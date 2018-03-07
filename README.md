@@ -4,6 +4,6 @@
 
 ## Instruction
 
-自用vue组件库
+自用vue工具库
 
 [github](https://github.com/iiiron/atalevue.git)
