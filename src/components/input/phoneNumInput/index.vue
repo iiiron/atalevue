@@ -13,7 +13,7 @@ export default {
       verifyInfo: '请输入手机号码',
 
       afterVerifyPass: (nv, ov) => {
-        this.verify = /^1[3|4|5|6|7|8|9][0-9]{9}$/.test(nv)
+        this.verify = /^1([358][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$/.test(nv)
         if (nv === '' || nv === null) {
           this.verifyInfo = '请输入手机号码'
         } else if (!this.verify) {

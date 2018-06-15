@@ -1,6 +1,6 @@
 {
   "name": "atalevue",
-  "version": "2.2.14",
+  "version": "2.3.3",
   "description": "a vue module",
   "author": "wanxiangming1994 <miniqueue@foxmail.com>",
   "private": false,
@@ -15,13 +15,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
-    "jsencrypt": "^2.3.1",
     "lodash": "^4.17.5",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "crypto-js": "^3.1.9-1",
+    "jsencrypt": "^2.3.1"
   },
   "devDependencies": {
+    "vue-router": "^3.0.1",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",

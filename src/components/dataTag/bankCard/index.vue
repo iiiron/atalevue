@@ -54,6 +54,7 @@ export default{
           })
           return lodash.find(f.format, (v, i) => {
             v = v.replace(/\s/g, '')
+            v = v.replace(/\_/g, '')
             return v.length === content.length
           }) || def
         } catch (e) {
